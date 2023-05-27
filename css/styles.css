@@ -389,15 +389,11 @@ position: absolute;
 
 /* Nuestro equipo */
 
-.seccion-team {
+.team {
   background: #f5f4fa;
 }
-.seccion-team__list {
-  padding-bottom: 94px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.seccion-team__images {
+.team__images {
+  margin:0px 30px 94px 0px;
   box-sizing: border-box;
   width: 270px;
   height: 428px;
@@ -408,10 +404,10 @@ position: absolute;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.seccion-team__img {
+.team__img {
   display: block;
 }
-.seccion-team__name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -419,24 +415,19 @@ position: absolute;
   /* identical to box height */
   color: var(--black-color);
 }
-.seccion-team__description {
+.team__description {
   line-height: 1.1;
   color: var(--grey-color);
   text-align: center;
 }
 
-.seccion-team__list-redes {
+.team__list-networks{
   display: flex;
   gap: 0px;
   padding: 0px 32px;
 }
 
-.icon-redes {
-  
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo-redes {
+.team__networks {
   display: flex;
   width: 44px;
   height: 44px;
@@ -444,27 +435,23 @@ position: absolute;
   justify-content: center;
   fill: #afb1b8;
   border-radius: 50px;
+  margin: 5px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-redes:hover {
+.team__networks:hover {
   background-color: var(--brand-color);
   fill: #eeeeee;
 }
 
+.team__icon-networks {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Nuestros clientes */
 
-.customers {
-  padding-bottom: 94px;
-  display: flex;
-  justify-content: space-evenly;
-}
 
-.icon-items {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 94px;
-}
-.icon-customer {
+.customer {
+  margin: 0px 30px 94px 0px;
   box-sizing: border-box;
   width: 170px;
   height: 81px;
@@ -472,15 +459,15 @@ position: absolute;
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-svg {
+.customer__icon {
   margin-top: 14px;
   margin-left: 32px;
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* Color inicial del ícono */
 }
-.icon-items:hover .icon-svg,
-.icon-customer:hover {
+.customer__icon:hover, 
+.customer:hover {
   fill: var(--brand-color);
   border-color: var(--brand-color);
   /* Color al hacer hover */
@@ -490,8 +477,6 @@ position: absolute;
 
 .footer {
   background: #2f303a;
-}
-.backgrounddate {
   height: 252px;
   padding: 95px 0;
 }
@@ -499,14 +484,12 @@ position: absolute;
 .footer-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
+
 }
 
-.footer-date {
-  margin-left: 20px;
-}
+
 address {
+  margin-left: 20px;
   font-style: normal;
   font-weight: 400;
 }
@@ -537,19 +520,12 @@ address {
   color: var(--white-color);
 }
 
-.icon-find {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
+.team__networks--white {
   background: rgba(255, 255, 255, 0.1);
-  margin: 5px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--white-color);
 }
 
-.icon-find:hover {
+.team__networks--white:hover {
   background-color: var(--brand-color);
 }
 
