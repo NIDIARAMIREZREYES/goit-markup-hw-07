@@ -22,7 +22,7 @@
       <div class="nav-container">
         <nav>
           <!--logo-menu -->
-    
+
           <ul class="navbar-list">
             <li>
               <a class="navbar__logo" href="#">Webstudio</a>
@@ -38,10 +38,10 @@
             </li>
           </ul>
         </nav>
-    
+
         <!-- Contactos -->
         <!-- Email -->
-    
+
         <ul class="contacts">
           <li>
             <a class="contacts__link" href="mailto:info@example.com">
@@ -51,19 +51,18 @@
               info@devstudio.com
             </a>
           </li>
-    
+
           <!-- Teléfono -->
           <li>
             <a class="contacts__link" href="">
               <svg class="contacts__icon" height="16px" width="16px">
                 <use href="./images/icon.svg/Sprite.svg#telefono"></use>
               </svg>
-    
+
               +52 55 5529 6000
             </a>
           </li>
         </ul>
-    
       </div>
     </header>
 
@@ -72,66 +71,97 @@
       <!-- background-->
       <section class="background">
         <div class="background__hero-container">
-          <h1 class="background__firsttitle">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <h1 class="background__firsttitle">
+            SOLUCIONES EFICACES PARA SU NEGOCIO
+          </h1>
           <button class="background__buttontitle" type="button" data-modal-open>
             Solicite nuestros servicios
           </button>
         </div>
       </section>
 
-<!-- backdrop y ventana modal -->
+      <!-- backdrop y ventana modal -->
 
-<section class="backdrop is-hidden" data-backdrop>
-  <form action="" class="modal is-hidden" data-modal>
-    <button class="modal__close-button" data-modal-close>X</button>
-    <h2 class="modal__title">Deje sus datos, nos contactaremos con usted</h2>
+      <section class="backdrop is-hidden" data-backdrop>
+        <form action="" class="modal is-hidden" data-modal>
+          <button class="modal__close-button" data-modal-close>X</button>
+          <h2 class="modal__title">
+            Deje sus datos, nos contactaremos con usted
+          </h2>
 
-    <label for="input-name"> Nombre </label>
-    <div class="modal__position">
-      <input class="modal__style" type="text" name="name" id="input-name" required />
-      <svg class="modal__icon">
-        <use href="./images/icon.svg/Sprite.svg#persona"></use>
-      </svg>
-    </div>
+          <label for="input-name"> Nombre </label>
+          <div class="modal__position">
+            <input
+              class="modal__style"
+              type="text"
+              name="name"
+              id="input-name"
+              required
+            />
+            <svg class="modal__icon">
+              <use href="./images/icon.svg/Sprite.svg#persona"></use>
+            </svg>
+          </div>
 
-    <label for="input-phone"> Telefono </label>
-    <div class="modal__position">
-      <input class="modal__style" type="text" name="phone" id="input-phone" required />
-      <svg class="modal__icon">
-        <use href="./images/icon.svg/Sprite.svg#telefono2"></use>
-      </svg>
-    </div>
+          <label for="input-phone"> Telefono </label>
+          <div class="modal__position">
+            <input
+              class="modal__style"
+              type="text"
+              name="phone"
+              id="input-phone"
+              required
+            />
+            <svg class="modal__icon">
+              <use href="./images/icon.svg/Sprite.svg#telefono2"></use>
+            </svg>
+          </div>
 
-    <label for="input-e-mail"> E-mail </label>
-    <div class="modal__position">
-      <input class="modal__style" type="email" name="e-mail" id="input-e-mail" required />
-      <svg class="modal__icon">
-        <use href="./images/icon.svg/Sprite.svg#sobre2"></use>
-      </svg>
-    </div>
+          <label for="input-e-mail"> E-mail </label>
+          <div class="modal__position">
+            <input
+              class="modal__style"
+              type="email"
+              name="e-mail"
+              id="input-e-mail"
+              required
+            />
+            <svg class="modal__icon">
+              <use href="./images/icon.svg/Sprite.svg#sobre2"></use>
+            </svg>
+          </div>
 
-    <label for="input-comment">
-      Comentarios
-      <textarea class="modal__textarea" name="comment" placeholder="Introduzca el texto"></textarea>
-    </label>
+          <label for="input-comment">
+            Comentarios
+            <textarea
+              class="modal__textarea"
+              name="comment"
+              placeholder="Introduzca el texto"
+            ></textarea>
+          </label>
 
-    <label for="verification" class="modal__verification">
-      Estoy de acuerdo con el boletín informativo y acepto los Términos y
-      Condiciones
-      <input class="modal__checkbox" type="checkbox" name="verification" id="verification" required/>
-      <svg class="modal__iconcheck">
-        <use href="./images/icon.svg/Sprite.svg#casilla"></use>
-      </svg>
+          <label for="verification" class="modal__verification">
+            Estoy de acuerdo con el boletín informativo y acepto los Términos y
+            Condiciones
+            <input
+              class="modal__checkbox"
+              type="checkbox"
+              name="verification"
+              id="verification"
+              required
+            />
+            <svg class="modal__iconcheck">
+              <use href="./images/icon.svg/Sprite.svg#casilla"></use>
+            </svg>
 
-      <button type="submit" class="modal__submit">Enviar</button>
-    </label>
-  </form>
-</section>
-
+            <button type="submit" class="modal__submit">Enviar</button>
+          </label>
+        </form>
+      </section>
 
       <!-- beneficios seccion-->
-      <section class="benefits body-container ">
-         <ul>
+      <section class="benefits body-container">
+        <ul>
           <li>
             <a href="#">
               <svg>
@@ -198,7 +228,7 @@
               src="./images/imagen1.jpg"
               alt="desktop Apps"
               width="370"
-              height="250"             
+              height="250"
             />
             <h3 class="images__title">APLICACIONES DE ESCRITORIO</h3>
           </div>
@@ -229,7 +259,7 @@
 
       <section class="team">
         <h2 class="seccion-title">Nuestro Equipo</h2>
-       
+
         <div class="body-container">
           <!-- Imagenes-->
           <ul>
@@ -457,51 +487,42 @@
 
     <footer class="footer">
       <section class="body-container">
-        <div class= "footer-container">
-        
-            <address>
-              <a class="navbar__logo" href="#">Webstudio</a>
-              <ul class="style">
-                <li>
-                  <a
-                    class="address"
-                    href="#"
-                    target="_blank"
-                    rel="noopeener noreferrer"
-                  >
-                    Calz. Ticomán 500, Ciudad de</a
-                  >
-                </li>
+        <div class="footer__container">
+          <address>
+            <a class="navbar__logo" href="#">Webstudio</a>
+            <ul class="address">
+              <li>
+                <a
+                  class="address__contact"
+                  href="#"
+                  target="_blank"
+                  rel="noopeener noreferrer"
+                >
+                  Calz. Ticomán 500, Ciudad de
+                  <span>México, CDMX, México</span>
+                </a>
+              </li>
 
-                <li>
-                  <a
-                    class="address"
-                    href="#"
-                    target="_blank"
-                    rel="noopeener noreferrer"
-                  >
-                    México, CDMX, México</a
-                  >
-                </li>
-                <li>
-                  <a class="email" href="mailto:info@example.com">
-                    info@example.com</a
-                  >
-                </li>
-                <li>
-                  <a class="secondphone" href="tel: +52 55 5529 6000">
-                    +52 55 5529 6000</a
-                  >
-                </li>
-              </ul>
-            </address>
-          
-          
+              <li>
+                <a
+                  class="address__contact--grey"
+                  href="mailto:info@example.com"
+                >
+                  info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="address__contact--grey" href="tel: +52 55 5529 6000">
+                  +52 55 5529 6000</a
+                >
+              </li>
+            </ul>
+          </address>
+
           <div class="find">
-            <p class="find-title">ENCUENTRENOS EN</p>
+            <p class="find__title">ENCUENTRENOS EN</p>
 
             <ul>
-              
               <li>
                 <a href="#" class="team__networks team__networks--white">
                   <svg height="20px" width="20px">
@@ -533,31 +554,31 @@
             </ul>
           </div>
 
-          <div class="footer-subscription">
+          <div class="subscription">
             <form action="">
-              <p class="find-title">SUSCRÍBASE AL BOLETIN INFORMATIVO</p>
-             <ul>
-              <li>
-              <label for="subscription" class="subscription">
-                
-                <input
-                  class="input-subscription"
-                 type="email" name="e-mail" id="input-subscription"
-                  placeholder="Correo electrónico"
-                />
-              </label>
-              </li>
-              <li>
-              <button type="submit" class="button-send">
-                Suscríbase
-                <svg class="send-svg">
-                  <use href="./images/icon.svg/Sprite.svg#enviar"></use>
-                </svg>
-              </button>
-              </li>
+              <p class="find__title">SUSCRÍBASE AL BOLETIN INFORMATIVO</p>
+              <ul>
+                <li>
+                  <label for="subscription">
+                    <input
+                      class="subscription__input"
+                      type="email"
+                      name="email"
+                      id="input-subscription"
+                      placeholder="Correo electrónico"
+                    />
+                  </label>
+                </li>
+                <li>
+                  <button type="submit" class="subscription__send">
+                    Suscríbase
+                    <svg width="24px" height="24px">
+                      <use href="./images/icon.svg/Sprite.svg#enviar"></use>
+                    </svg>
+                  </button>
+                </li>
               </ul>
             </form>
-           
           </div>
         </div>
       </section>
